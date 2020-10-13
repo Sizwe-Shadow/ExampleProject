@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    position: relative;
+}
+body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    text-decoration: CaptionText;
+}
+.container {
+    /* The image used */
+    background-image: url("../img/bluepow.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.app{
+    min-height: 640px;
+    overflow: hidden; /*overflow property specifies whether to clip content
+                        or to add scrollbars when an element's content is
+                         too big to fit in a specified area.*/
+}
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+    width:230px;
+    height:230px;
+    position: center;
+    padding:10px;
+    background-color: white;
+    margin-top:20px;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    display: block;
+    margin-left: 50px;
+}
+.row {
+    margin-left: 50px;
+    position: center;
+}
+/*
+.row:after {
+    display: table;
+    clear: both;
+}*/
+.card-image {
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+    overflow:hidden;
+}
+
+.card-image h2 {
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    text-align: center;
+    color:white;
+    background:rgba(0,0,0,0.65);
+    margin:0px;
+    padding:6px;
+    border:none;
+}
+.card-image h3 {
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    text-align: center;
+    color:white;
+    background:rgba(0,0,0,0.65);
+    margin:0px;
+    padding:6px;
+    border:none;
+}
+.profile{
+    background-image: url("../img/user_icon.jpg");
+    object-fit: scale-down;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+.overflow{
+    background-image: url("../img/discussion_forum.png");
+    object-fit: scale-down;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+.safeSpace{
+    background-image: url("../img/main_heart.jpg");
+    object-fit: scale-down;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+.Health{
+    background-image: url("../img/health_main.jpg");
+    object-fit: scale-down;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+.accommodation{
+    background-image: url("../img/accomodation.png");
+    object-fit: scale-down;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+.creatives{
+    background-image: url("../img/creatives.jpg");
+    object-fit: scale-down;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}

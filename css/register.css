@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+html{
+    position: relative;
+}
+body{
+    background: #FFFFFF;
+    /*background-image: url(../img/witlogo.png);*/
+    height: 100%;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+    position: relative;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 1em;
+}
+.container{
+    margin: 0px auto;
+    padding: 0;
+}
+.app{
+    background: #FFFFFF;
+    min-height: 640px;
+    overflow: hidden; /*overflow property specifies whether to clip content
+                        or to add scrollbars when an element's content is
+                         too big to fit in a specified area.*/
+    background: transparent;
+}
+.center {
+    display: block;
+    margin-left: auto; /*make everything align to the left*/
+    margin-right: auto;
+}
+.left{
+    display: inline-block;
+    margin-left: auto; /*make everything align to the left*/
+    margin-right: auto;
+}
+.register-container .form-control{
+    position: relative;
+    text-align: left;
+}
+
+.register-container .form-control input{
+    /*display: inline-block;*/
+    margin-top: 20px;
+    margin-bottom: 3px;
+    text-align: center;
+    width: 70%;
+    padding: 30px 0 2px 0px;
+    letter-spacing: 4px;
+    font-size: 2em;
+    /* font-weight: 600;*/
+    /*color: #86E2ED;
+    border: 1px solid #86E2ED;*/
+   /* border-radius: 30px; */
+    outline: none;
+   /* background: #86E2ED*/;
+
+}
+.register-container .form-control input.surname{
+    /*display: inline-block;*/
+    margin-top: 20px;
+    margin-bottom: 3px;
+    text-align: center;
+    width: 70%;
+    padding: 30px 0 2px 0px;
+    letter-spacing: 4px;
+    font-size: 2em;
+    /* font-weight: 600;*/
+    /*color: #86E2ED;
+    border: 1px solid #86E2ED;*/
+    /* border-radius: 30px; */
+    outline: none;
+    /* background: #86E2ED*/;
+}
+
+
+.signin-button{
+    border: #278DED;
+    display: block;
+    width: 100%;
+    background-color: #278DED;
+    color: white;
+    /*color:rgb(255, 134, 13) ;*/
+    padding: 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    /*display: inline-block;*/
+    font-size: 16px;
+    margin: 15px 2px;
+    cursor: pointer;
+}
+.signin-button:hover{
+    color: #2d2d2d;
+}

@@ -1,0 +1,62 @@
+*{
+    /*margin: 0;*/
+    /*padding: 0;*/
+}
+html{
+    position: relative;
+    overflow: scroll;
+    background: #2d2d2d;
+}
+
+body{
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*position: fixed;*/
+    /*font-family: "Open Sans", Sans-serif;*/
+    /*font-size: 1.5em;*/
+    /*text-align: center;*/
+    /*color: white;*/
+    /*text-decoration: CaptionText;*/
+    /*overflow: inherit;*/
+}
+.app{
+    min-height: 640px;
+    /*overflow: scroll; overflow property specifies whether to clip content
+                        or to add scrollbars when an element's content is
+                         too big to fit in a specified area.*/
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.floating-btn{
+    width: 80px;
+    height: 80px;
+    background: #008eab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    transition: background 0.25s;
+
+    outline: blue;
+    border: none;
+    cursor: pointer;
+}
+.floating-btn:active{
+    background: #008eab;
+}
+.list:hover{
+    color: #2d2d2d;
+    cursor: pointer;
+}
+
